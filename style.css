@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #2563eb;
+    --header-color: #a7d7f7;
+    --background-color: #dbe8f8;
+    --text-color: #333333;
+    --card-color: #ffffff;
+    --footer-color: #1e293b;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    min-height: 70px;
+    background-color: var(--header-color);
+    border-bottom: 1px solid #727070;
+    box-shadow: 0 0 5px #696767;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+h1 span {
+    color: var(--primary-color);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: #443d3d;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 8%;
+    background-color: var(--background-color);
+}
+
+
+.container h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #172554;
+}
+
+.container p {
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.container a {
+    padding: 12px 25px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.container img {
+    width: 100%;
+    max-width: 430px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 5px 10px #696767;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 8%;
+    background-color: #f1f5f9;
+}
+
+.card {
+    padding: 25px;
+    background-color: var(--card-color);
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #00000015;
+}
+
+.card h3 {
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.card p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.card1 {
+    border-top: 5px solid #94a3b8;
+}
+
+.card2 {
+    border-top: 5px solid #eab308;
+}
+
+.card3 {
+    border-top: 5px solid #64748b;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--footer-color);
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+}
+
